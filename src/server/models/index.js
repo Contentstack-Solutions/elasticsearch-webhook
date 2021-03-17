@@ -25,7 +25,7 @@ async function upsertEntry(data) {
 async function deleteEntry(data) {
   return esclient.delete({
     index,
-    id: `${data.entry.uid}_${data.locale}`,
+    id: `${data.entry.uid}_${data.entry.locale}`,
   });
 }
 

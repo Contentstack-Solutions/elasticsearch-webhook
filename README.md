@@ -3,20 +3,21 @@ The following is an example of sending Contentstack Entries to Elasticsearch for
 
 ## Instructions
 
-**Step 1**
+#### Step 1
 ```
 $ npm install
 ```
 
-**Step 2**
+#### Step 2
 ```
 $ npm run
 ```
  
-**Step 3**
+#### Step 3
 ```
 $ ngrok http 3000
 ```
 
-**Step 4**
-Import `webhook.json` into Contentstack, and change the `URL to notify` to your ngrok address.
+#### Step 4
+* Import `webhook.json` into Contentstack, and change the `URL to notify` to your ngrok address, keeping the `/api/auto` segment.
+* Example: https://e9faa9824a35.ngrok.io/api/auto
