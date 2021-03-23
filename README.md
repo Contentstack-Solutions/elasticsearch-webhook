@@ -3,10 +3,11 @@ The following is an example of sending Contentstack Entries to Elasticsearch for
 
 ## Instructions
 
+Your Elasticsearch node's URL can be provided via a `.env` file or the `ELASTIC_URL` environment variable. It defaults to `http://localhost:9200`.
 #### Step 1
 ```
 $ npm install
-$ npm run
+$ ELASTIC_URL=https://your-elasticsearch-url:9200 npm run
 ```
  
 #### Step 2
